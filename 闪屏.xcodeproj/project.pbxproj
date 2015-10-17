@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45408B81BD23A2200B86481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408B71BD23A2200B86481 /* main.m */; };
+		C45408BB1BD23A2200B86481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408BA1BD23A2200B86481 /* AppDelegate.m */; };
+		C45408BE1BD23A2200B86481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408BD1BD23A2200B86481 /* ViewController.m */; };
+		C45408C11BD23A2200B86481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45408BF1BD23A2200B86481 /* Main.storyboard */; };
+		C45408C31BD23A2200B86481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45408C21BD23A2200B86481 /* Assets.xcassets */; };
+		C45408C61BD23A2200B86481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45408C41BD23A2200B86481 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45408B31BD23A2200B86481 /* 闪屏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闪屏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45408B71BD23A2200B86481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C45408B91BD23A2200B86481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C45408BA1BD23A2200B86481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C45408BC1BD23A2200B86481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C45408BD1BD23A2200B86481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C45408C01BD23A2200B86481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45408C21BD23A2200B86481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45408C51BD23A2200B86481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45408C71BD23A2200B86481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45408B01BD23A2200B86481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45408AA1BD23A2200B86481 = {
+			isa = PBXGroup;
+			children = (
+				C45408B51BD23A2200B86481 /* 闪屏 */,
+				C45408B41BD23A2200B86481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45408B41BD23A2200B86481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45408B31BD23A2200B86481 /* 闪屏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45408B51BD23A2200B86481 /* 闪屏 */ = {
+			isa = PBXGroup;
+			children = (
+				C45408B91BD23A2200B86481 /* AppDelegate.h */,
+				C45408BA1BD23A2200B86481 /* AppDelegate.m */,
+				C45408BC1BD23A2200B86481 /* ViewController.h */,
+				C45408BD1BD23A2200B86481 /* ViewController.m */,
+				C45408BF1BD23A2200B86481 /* Main.storyboard */,
+				C45408C21BD23A2200B86481 /* Assets.xcassets */,
+				C45408C41BD23A2200B86481 /* LaunchScreen.storyboard */,
+				C45408C71BD23A2200B86481 /* Info.plist */,
+				C45408B61BD23A2200B86481 /* Supporting Files */,
+			);
+			path = "闪屏";
+			sourceTree = "<group>";
+		};
+		C45408B61BD23A2200B86481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45408B71BD23A2200B86481 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45408B21BD23A2200B86481 /* 闪屏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45408CA1BD23A2200B86481 /* Build configuration list for PBXNativeTarget "闪屏" */;
+			buildPhases = (
+				C45408AF1BD23A2200B86481 /* Sources */,
+				C45408B01BD23A2200B86481 /* Frameworks */,
+				C45408B11BD23A2200B86481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "闪屏";
+			productName = "闪屏";
+			productReference = C45408B31BD23A2200B86481 /* 闪屏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45408AB1BD23A2200B86481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "邱读书";
+				TargetAttributes = {
+					C45408B21BD23A2200B86481 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C45408AE1BD23A2200B86481 /* Build configuration list for PBXProject "闪屏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45408AA1BD23A2200B86481;
+			productRefGroup = C45408B41BD23A2200B86481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45408B21BD23A2200B86481 /* 闪屏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45408B11BD23A2200B86481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45408C61BD23A2200B86481 /* LaunchScreen.storyboard in Resources */,
+				C45408C31BD23A2200B86481 /* Assets.xcassets in Resources */,
+				C45408C11BD23A2200B86481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45408AF1BD23A2200B86481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45408BE1BD23A2200B86481 /* ViewController.m in Sources */,
+				C45408BB1BD23A2200B86481 /* AppDelegate.m in Sources */,
+				C45408B81BD23A2200B86481 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C45408BF1BD23A2200B86481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45408C01BD23A2200B86481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45408C41BD23A2200B86481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45408C51BD23A2200B86481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45408C81BD23A2200B86481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C45408C91BD23A2200B86481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45408CB1BD23A2200B86481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闪屏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45408CC1BD23A2200B86481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闪屏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45408AE1BD23A2200B86481 /* Build configuration list for PBXProject "闪屏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45408C81BD23A2200B86481 /* Debug */,
+				C45408C91BD23A2200B86481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45408CA1BD23A2200B86481 /* Build configuration list for PBXNativeTarget "闪屏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45408CB1BD23A2200B86481 /* Debug */,
+				C45408CC1BD23A2200B86481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45408AB1BD23A2200B86481 /* Project object */;
+}
