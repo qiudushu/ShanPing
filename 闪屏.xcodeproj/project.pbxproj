@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51FDC25E2745C6F5B3266297 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6ABB7D5A3BD6423D6CB09E /* libPods.a */; };
+		C44931DB1BD27FAB00F0BAF2 /* BaseTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931D71BD27FAB00F0BAF2 /* BaseTabbarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44931DC1BD27FAB00F0BAF2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931D91BD27FAB00F0BAF2 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44931E41BD2800C00F0BAF2 /* MyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931DF1BD2800C00F0BAF2 /* MyHelper.m */; settings = {ASSET_TAGS = (); }; };
+		C44931E51BD2800C00F0BAF2 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931E11BD2800C00F0BAF2 /* NSString+Helper.m */; settings = {ASSET_TAGS = (); }; };
+		C44931E61BD2800C00F0BAF2 /* UIImage+ImageScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931E31BD2800C00F0BAF2 /* UIImage+ImageScale.m */; settings = {ASSET_TAGS = (); }; };
+		C44931EA1BD280BC00F0BAF2 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931E81BD280BC00F0BAF2 /* ThreeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44931EB1BD280BC00F0BAF2 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931E91BD280BC00F0BAF2 /* ThreeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C44931FB1BD2814A00F0BAF2 /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931ED1BD2814900F0BAF2 /* AnimalViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44931FC1BD2814A00F0BAF2 /* AnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931EE1BD2814900F0BAF2 /* AnimalViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C44931FD1BD2814A00F0BAF2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931F01BD2814900F0BAF2 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44931FE1BD2814A00F0BAF2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931F11BD2814900F0BAF2 /* FirstViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C44931FF1BD2814A00F0BAF2 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931F31BD2814900F0BAF2 /* ForthViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44932001BD2814A00F0BAF2 /* ForthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931F41BD2814900F0BAF2 /* ForthViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C44932011BD2814A00F0BAF2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931F61BD2814900F0BAF2 /* GuideViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44932021BD2814A00F0BAF2 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931F71BD2814A00F0BAF2 /* GuideViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C44932031BD2814A00F0BAF2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44931F91BD2814A00F0BAF2 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C44932041BD2814A00F0BAF2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44931FA1BD2814A00F0BAF2 /* SecondViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		C45408B81BD23A2200B86481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408B71BD23A2200B86481 /* main.m */; };
 		C45408BB1BD23A2200B86481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408BA1BD23A2200B86481 /* AppDelegate.m */; };
-		C45408BE1BD23A2200B86481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45408BD1BD23A2200B86481 /* ViewController.m */; };
 		C45408C11BD23A2200B86481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45408BF1BD23A2200B86481 /* Main.storyboard */; };
 		C45408C31BD23A2200B86481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45408C21BD23A2200B86481 /* Assets.xcassets */; };
 		C45408C61BD23A2200B86481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45408C41BD23A2200B86481 /* LaunchScreen.storyboard */; };
@@ -17,17 +34,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351864FC15AF4658C8BAD8EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7E6ABB7D5A3BD6423D6CB09E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44931D61BD27FAB00F0BAF2 /* BaseTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarViewController.h; sourceTree = "<group>"; };
+		C44931D71BD27FAB00F0BAF2 /* BaseTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarViewController.m; sourceTree = "<group>"; };
+		C44931D81BD27FAB00F0BAF2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C44931D91BD27FAB00F0BAF2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C44931DA1BD27FAB00F0BAF2 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		C44931DD1BD2800C00F0BAF2 /* HADirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HADirect.h; sourceTree = "<group>"; };
+		C44931DE1BD2800C00F0BAF2 /* MyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHelper.h; sourceTree = "<group>"; };
+		C44931DF1BD2800C00F0BAF2 /* MyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHelper.m; sourceTree = "<group>"; };
+		C44931E01BD2800C00F0BAF2 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		C44931E11BD2800C00F0BAF2 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		C44931E21BD2800C00F0BAF2 /* UIImage+ImageScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageScale.h"; sourceTree = "<group>"; };
+		C44931E31BD2800C00F0BAF2 /* UIImage+ImageScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageScale.m"; sourceTree = "<group>"; };
+		C44931E71BD280BC00F0BAF2 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		C44931E81BD280BC00F0BAF2 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		C44931E91BD280BC00F0BAF2 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		C44931EC1BD2814900F0BAF2 /* AnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
+		C44931ED1BD2814900F0BAF2 /* AnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalViewController.m; sourceTree = "<group>"; };
+		C44931EE1BD2814900F0BAF2 /* AnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalViewController.xib; sourceTree = "<group>"; };
+		C44931EF1BD2814900F0BAF2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C44931F01BD2814900F0BAF2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C44931F11BD2814900F0BAF2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		C44931F21BD2814900F0BAF2 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		C44931F31BD2814900F0BAF2 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		C44931F41BD2814900F0BAF2 /* ForthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForthViewController.xib; sourceTree = "<group>"; };
+		C44931F51BD2814900F0BAF2 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		C44931F61BD2814900F0BAF2 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		C44931F71BD2814A00F0BAF2 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
+		C44931F81BD2814A00F0BAF2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C44931F91BD2814A00F0BAF2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C44931FA1BD2814A00F0BAF2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		C45408B31BD23A2200B86481 /* 闪屏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闪屏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45408B71BD23A2200B86481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C45408B91BD23A2200B86481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C45408BA1BD23A2200B86481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C45408BC1BD23A2200B86481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C45408BD1BD23A2200B86481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C45408C01BD23A2200B86481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45408C21BD23A2200B86481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45408C51BD23A2200B86481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45408C71BD23A2200B86481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45408CD1BD23A9E00B86481 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F27404A6831670DE3462AC01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +83,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FDC25E2745C6F5B3266297 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C64504CF5FE1F7782460FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6ABB7D5A3BD6423D6CB09E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C45408AA1BD23A2200B86481 = {
 			isa = PBXGroup;
 			children = (
 				C45408B51BD23A2200B86481 /* 闪屏 */,
 				C45408B41BD23A2200B86481 /* Products */,
+				FAB3FAEE9913397CDA60B9F8 /* Pods */,
+				5C64504CF5FE1F7782460FD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +119,38 @@
 		C45408B51BD23A2200B86481 /* 闪屏 */ = {
 			isa = PBXGroup;
 			children = (
+				C44931EC1BD2814900F0BAF2 /* AnimalViewController.h */,
+				C44931ED1BD2814900F0BAF2 /* AnimalViewController.m */,
+				C44931EE1BD2814900F0BAF2 /* AnimalViewController.xib */,
+				C44931EF1BD2814900F0BAF2 /* FirstViewController.h */,
+				C44931F01BD2814900F0BAF2 /* FirstViewController.m */,
+				C44931F11BD2814900F0BAF2 /* FirstViewController.xib */,
+				C44931F21BD2814900F0BAF2 /* ForthViewController.h */,
+				C44931F31BD2814900F0BAF2 /* ForthViewController.m */,
+				C44931F41BD2814900F0BAF2 /* ForthViewController.xib */,
+				C44931F51BD2814900F0BAF2 /* GuideViewController.h */,
+				C44931F61BD2814900F0BAF2 /* GuideViewController.m */,
+				C44931F71BD2814A00F0BAF2 /* GuideViewController.xib */,
+				C44931F81BD2814A00F0BAF2 /* SecondViewController.h */,
+				C44931F91BD2814A00F0BAF2 /* SecondViewController.m */,
+				C44931FA1BD2814A00F0BAF2 /* SecondViewController.xib */,
+				C44931E71BD280BC00F0BAF2 /* ThreeViewController.h */,
+				C44931E81BD280BC00F0BAF2 /* ThreeViewController.m */,
+				C44931E91BD280BC00F0BAF2 /* ThreeViewController.xib */,
+				C44931DD1BD2800C00F0BAF2 /* HADirect.h */,
+				C44931DE1BD2800C00F0BAF2 /* MyHelper.h */,
+				C44931DF1BD2800C00F0BAF2 /* MyHelper.m */,
+				C44931E01BD2800C00F0BAF2 /* NSString+Helper.h */,
+				C44931E11BD2800C00F0BAF2 /* NSString+Helper.m */,
+				C44931E21BD2800C00F0BAF2 /* UIImage+ImageScale.h */,
+				C44931E31BD2800C00F0BAF2 /* UIImage+ImageScale.m */,
 				C45408B91BD23A2200B86481 /* AppDelegate.h */,
 				C45408BA1BD23A2200B86481 /* AppDelegate.m */,
-				C45408BC1BD23A2200B86481 /* ViewController.h */,
-				C45408BD1BD23A2200B86481 /* ViewController.m */,
+				C44931D61BD27FAB00F0BAF2 /* BaseTabbarViewController.h */,
+				C44931D71BD27FAB00F0BAF2 /* BaseTabbarViewController.m */,
+				C44931D81BD27FAB00F0BAF2 /* BaseViewController.h */,
+				C44931D91BD27FAB00F0BAF2 /* BaseViewController.m */,
+				C44931DA1BD27FAB00F0BAF2 /* Common.h */,
 				C45408BF1BD23A2200B86481 /* Main.storyboard */,
 				C45408C21BD23A2200B86481 /* Assets.xcassets */,
 				C45408C41BD23A2200B86481 /* LaunchScreen.storyboard */,
@@ -82,6 +169,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FAB3FAEE9913397CDA60B9F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F27404A6831670DE3462AC01 /* Pods.debug.xcconfig */,
+				351864FC15AF4658C8BAD8EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45408CA1BD23A2200B86481 /* Build configuration list for PBXNativeTarget "闪屏" */;
 			buildPhases = (
+				E1527A515526A06071352951 /* Check Pods Manifest.lock */,
 				C45408AF1BD23A2200B86481 /* Sources */,
 				C45408B01BD23A2200B86481 /* Frameworks */,
 				C45408B11BD23A2200B86481 /* Resources */,
+				AB975A5ACD9B75C0EC366F33 /* Embed Pods Frameworks */,
+				1FE590884F7BD188379A44D2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,21 +240,85 @@
 			files = (
 				C45408C61BD23A2200B86481 /* LaunchScreen.storyboard in Resources */,
 				C45408CE1BD23A9E00B86481 /* 1.jpg in Resources */,
+				C44932001BD2814A00F0BAF2 /* ForthViewController.xib in Resources */,
 				C45408C31BD23A2200B86481 /* Assets.xcassets in Resources */,
+				C44932041BD2814A00F0BAF2 /* SecondViewController.xib in Resources */,
+				C44932021BD2814A00F0BAF2 /* GuideViewController.xib in Resources */,
+				C44931EB1BD280BC00F0BAF2 /* ThreeViewController.xib in Resources */,
+				C44931FC1BD2814A00F0BAF2 /* AnimalViewController.xib in Resources */,
+				C44931FE1BD2814A00F0BAF2 /* FirstViewController.xib in Resources */,
 				C45408C11BD23A2200B86481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FE590884F7BD188379A44D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB975A5ACD9B75C0EC366F33 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1527A515526A06071352951 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45408AF1BD23A2200B86481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45408BE1BD23A2200B86481 /* ViewController.m in Sources */,
+				C44931FB1BD2814A00F0BAF2 /* AnimalViewController.m in Sources */,
+				C44932031BD2814A00F0BAF2 /* SecondViewController.m in Sources */,
+				C44931DB1BD27FAB00F0BAF2 /* BaseTabbarViewController.m in Sources */,
+				C44931DC1BD27FAB00F0BAF2 /* BaseViewController.m in Sources */,
 				C45408BB1BD23A2200B86481 /* AppDelegate.m in Sources */,
 				C45408B81BD23A2200B86481 /* main.m in Sources */,
+				C44932011BD2814A00F0BAF2 /* GuideViewController.m in Sources */,
+				C44931E41BD2800C00F0BAF2 /* MyHelper.m in Sources */,
+				C44931E51BD2800C00F0BAF2 /* NSString+Helper.m in Sources */,
+				C44931FD1BD2814A00F0BAF2 /* FirstViewController.m in Sources */,
+				C44931E61BD2800C00F0BAF2 /* UIImage+ImageScale.m in Sources */,
+				C44931EA1BD280BC00F0BAF2 /* ThreeViewController.m in Sources */,
+				C44931FF1BD2814A00F0BAF2 /* ForthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +426,7 @@
 		};
 		C45408CB1BD23A2200B86481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27404A6831670DE3462AC01 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "闪屏/Info.plist";
@@ -274,6 +438,7 @@
 		};
 		C45408CC1BD23A2200B86481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351864FC15AF4658C8BAD8EE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "闪屏/Info.plist";
@@ -302,6 +467,7 @@
 				C45408CC1BD23A2200B86481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
