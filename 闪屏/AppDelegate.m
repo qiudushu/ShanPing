@@ -22,21 +22,6 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     self.window.rootViewController = [[SwitchViewController alloc] init];
-//    self.window.rootViewController.view.alpha = 0;
-//    UIImageView *splashImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"1.jpg"]];
-//    [self.window addSubview:splashImageView];
-//    
-//    UIButton *mBtn = [[UIButton alloc]init];
-//    mBtn.frame = CGRectMake(100, 100, 100, 100);
-//    mBtn.backgroundColor = [UIColor redColor];
-//    [mBtn addTarget:self action:@selector(gotoNext) forControlEvents:UIControlEventTouchUpInside];
-//    [self.window addSubview:mBtn];
-//    
-//    [UIView animateWithDuration:3.7 animations:^{
-////        self.window.rootViewController.view.alpha = 1.0;
-//    } completion:^(BOOL finished) {
-////        [splashImageView removeFromSuperview];
-//    }];
     [self.window makeKeyAndVisible];
     return YES;
 }
