@@ -31,20 +31,6 @@
      *  设置主控制器
      */
     [self setUpAllChildViewController];
-    
-    //接收通知
-//    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(changeStatus:) name:@"SEND_ANIMAL" object:nil];
-    
-//    
-//    btn_animal = [[UIButton alloc] init];
-//    btn_animal.frame = CGRectMake(0, 0, 60, 50);
-////    btn_animal.backgroundColor = [UIColor orangeColor];
-//    [btn_animal setImage:[UIImage imageNamed:@"btn_Tabbar_Community"] forState:UIControlStateNormal];
-//    [btn_animal setImage:[UIImage imageNamed:@"btn_Tabbar_Community_on"] forState:UIControlStateSelected];
-//    btn_animal.center = self.tabBar.center;
-//    [btn_animal addTarget:self action:@selector(changeStatus:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:btn_animal];
-
 }
 /**
  *  改变选中的状态
@@ -100,12 +86,12 @@
     
     UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:viewController];
     navC.title = title;
-    navC.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];;
+    navC.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     navC.tabBarItem.image = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     navC.navigationBar.translucent = NO;
     
     viewController.navigationItem.title = title;
-    viewController.tabBarController.tabBar.tintColor = [MyHelper colorWithHexString:@"FF6E6E"];
+    [navC.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor],NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     [self addChildViewController:navC];
 }
 @end

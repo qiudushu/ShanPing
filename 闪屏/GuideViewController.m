@@ -9,15 +9,35 @@
 #import "GuideViewController.h"
 #import "BaseTabbarViewController.h"
 #import "AppDelegate.h"
+#import "HADirect.h"
+
 @interface GuideViewController ()
 
 @end
 
 @implementation GuideViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    /**
+     *  引导页
+     *
+     *  @return <#return value description#>
+     */
+    HADirect *d = [HADirect direcWithtFrame:kFrame ImageArr:@[@"user_1.jpg",@"user_2.jpg",@"user_3.jpg",@"user_4.jpg"] AndImageClickBlock:^(NSInteger index) {
+        NSLog(@"点击的是当前  %ld  张照片 ",(long)index);
+    }];
+    [self.view addSubview:d];
+    
+    UIButton *mBtn = [[UIButton alloc]init];
+    mBtn.frame = CGRectMake(0, 40, 200, 40);
+    mBtn.titleLabel.textAlignment = NSTextAlignmentLeft;
+    [mBtn setTitle:@"跳过" forState:UIControlStateNormal];
+    [mBtn addTarget:self action:@selector(GuideEndAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:mBtn];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,7 +45,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)GuideEndAction:(id)sender
+- (void)GuideEndAction
 {
     BaseTabbarViewController *tabBarController = [[BaseTabbarViewController alloc] init];
     ((AppDelegate *)[[UIApplication sharedApplication] delegate]).window.rootViewController = tabBarController;
@@ -42,7 +62,9 @@
     [userDefaults setObject:version forKey:@"ISFIRSTOPEN"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     //显示状态栏
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+//    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    [self prefersStatusBarHidden];
+
 }
 
 

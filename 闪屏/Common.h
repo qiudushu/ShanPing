@@ -11,6 +11,7 @@
 
 #define kWidth  [[UIScreen mainScreen] bounds].size.width
 #define kHeight [[UIScreen mainScreen] bounds].size.height
+#define kFrame  [[UIScreen mainScreen] bounds]
 
 #define KEY_WINDOW  [[UIApplication sharedApplication]keyWindow]
 #define TOP_VIEW  [[UIApplication sharedApplication]keyWindow].rootViewController.view
