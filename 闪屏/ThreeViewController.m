@@ -7,9 +7,9 @@
 //
 
 #import "ThreeViewController.h"
-#import "GDMapViewController.h"
-#import "LocalViewController.h"
-#import "Local2ViewController.h"
+//#import "GDMapViewController.h"
+//#import "LocalViewController.h"
+//#import "Local2ViewController.h"
 
 @interface ThreeViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *MapView;
@@ -70,28 +70,28 @@
  */
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.row == 0)
-    {
-        GDMapViewController *gd = [[GDMapViewController alloc]init];
-        gd.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:gd animated:YES];
-    }
-    else if (indexPath.row == 1)
-    {
-        LocalViewController *gd = [[LocalViewController alloc]init];
-        gd.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:gd animated:YES];
-    }
-    else if (indexPath.row == 2)
-    {
-        Local2ViewController *gd = [[Local2ViewController alloc]init];
-        gd.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:gd animated:YES];
-    }
-    else if (indexPath.row == 5)
-    {
-        NSLog(@"打印   %@",[[_dataArray objectAtIndex:indexPath.row] valueForKey:@"description"]);
-    }
+//    if (indexPath.row == 0)
+//    {
+//        GDMapViewController *gd = [[GDMapViewController alloc]init];
+//        gd.hidesBottomBarWhenPushed = YES;
+//        [self.navigationController pushViewController:gd animated:YES];
+//    }
+//    else if (indexPath.row == 1)
+//    {
+//        LocalViewController *gd = [[LocalViewController alloc]init];
+//        gd.hidesBottomBarWhenPushed = YES;
+//        [self.navigationController pushViewController:gd animated:YES];
+//    }
+//    else if (indexPath.row == 2)
+//    {
+//        Local2ViewController *gd = [[Local2ViewController alloc]init];
+//        gd.hidesBottomBarWhenPushed = YES;
+//        [self.navigationController pushViewController:gd animated:YES];
+//    }
+//    else if (indexPath.row == 5)
+//    {
+//        NSLog(@"打印   %@",[[_dataArray objectAtIndex:indexPath.row] valueForKey:@"description"]);
+//    }
 }
 
 

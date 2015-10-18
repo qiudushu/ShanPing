@@ -7,12 +7,10 @@
 //
 
 #import "SecondViewController.h"
-#import "SendContentViewController.h"
-#import "MLEmoji/MLEmojiLabel.h"
 
-@interface SecondViewController ()<MLEmojiLabelDelegate>
+@interface SecondViewController ()
 {
-    MLEmojiLabel *mEmoji;
+//    MLEmojiLabel *mEmoji;
 }
 
 @end
@@ -26,16 +24,16 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"发布" style:UIBarButtonItemStyleDone target:self action:@selector(sendContent:)];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"网页" style:UIBarButtonItemStyleDone target:self action:@selector(webAction:)];
     
-    mEmoji = [[MLEmojiLabel alloc]initWithFrame:CGRectMake(0, 400, kWidth, 50)];
-    mEmoji.backgroundColor = [UIColor grayColor];
-    mEmoji.delegate = self;
-    mEmoji.backgroundColor = [UIColor clearColor];
-    mEmoji.numberOfLines = 0;
-    mEmoji.isNeedAtAndPoundSign = YES;
-    mEmoji.disableThreeCommon = YES;
-    mEmoji.disableEmoji = YES;
-    mEmoji.textColor = [MyHelper colorWithHexString:@"#444444"];
-    [self.view addSubview:mEmoji];
+//    mEmoji = [[MLEmojiLabel alloc]initWithFrame:CGRectMake(0, 400, kWidth, 50)];
+//    mEmoji.backgroundColor = [UIColor grayColor];
+//    mEmoji.delegate = self;
+//    mEmoji.backgroundColor = [UIColor clearColor];
+//    mEmoji.numberOfLines = 0;
+//    mEmoji.isNeedAtAndPoundSign = YES;
+//    mEmoji.disableThreeCommon = YES;
+//    mEmoji.disableEmoji = YES;
+//    mEmoji.textColor = [MyHelper colorWithHexString:@"#444444"];
+//    [self.view addSubview:mEmoji];
     
 }
 /*
@@ -50,10 +48,10 @@
  */
 - (void)sendContent:(UIBarButtonItem *)sender
 {
-    SendContentViewController *mSend = [[SendContentViewController alloc]init];
-    
-    UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:mSend];
-    [self presentViewController:nv animated:YES completion:nil];
+//    SendContentViewController *mSend = [[SendContentViewController alloc]init];
+//    
+//    UINavigationController *nv = [[UINavigationController alloc]initWithRootViewController:mSend];
+//    [self presentViewController:nv animated:YES completion:nil];
 }
 /**
  *  <#Description#>
@@ -62,14 +60,14 @@
 {
     [super viewWillAppear:YES];
     
-    NSUserDefaults *mDef = [NSUserDefaults standardUserDefaults];
-    [mDef synchronize];
-    self.ExamLable.text = [mDef valueForKey:@"SEND_VALUE"];
-    mEmoji.text = [mDef valueForKey:@"SEND_VALUE"];
+//    NSUserDefaults *mDef = [NSUserDefaults standardUserDefaults];
+//    [mDef synchronize];
+//    self.ExamLable.text = [mDef valueForKey:@"SEND_VALUE"];
+//    mEmoji.text = [mDef valueForKey:@"SEND_VALUE"];
 }
 
-- (void)mlEmojiLabel:(MLEmojiLabel *)emojiLabel didSelectLink:(NSString *)link withType:(MLEmojiLabelLinkType)type
-{
-    NSLog(@"------%@",emojiLabel.text);
-}
+//- (void)mlEmojiLabel:(MLEmojiLabel *)emojiLabel didSelectLink:(NSString *)link withType:(MLEmojiLabelLinkType)type
+//{
+//    NSLog(@"------%@",emojiLabel.text);
+//}
 @end

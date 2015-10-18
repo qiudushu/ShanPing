@@ -7,7 +7,7 @@
 //
 
 #import "ForthViewController.h"
-#import "SetUpDetailViewController.h"
+//#import "SetUpDetailViewController.h"
 #import "HADirect.h"
 
 @interface ForthViewController ()<UIScrollViewDelegate>
@@ -24,8 +24,8 @@
 @implementation ForthViewController
 - (void)GotoSettintg:(UIBarButtonItem *)sender
 {
-    SetUpDetailViewController *setUp = [[SetUpDetailViewController alloc]init];
-    [self.navigationController pushViewController:setUp animated:YES];
+//    SetUpDetailViewController *setUp = [[SetUpDetailViewController alloc]init];
+//    [self.navigationController pushViewController:setUp animated:YES];
 }
 - (void)viewDidLoad
 {
