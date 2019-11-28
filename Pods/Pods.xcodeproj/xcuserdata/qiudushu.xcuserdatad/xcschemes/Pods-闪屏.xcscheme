@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B882ECC7477640F3042DA5ED745D2312"
+               BlueprintIdentifier = "6E3B6CE8DF1E9885402040E8FEA94EEE"
                BuildableName = "libPods-闪屏.a"
                BlueprintName = "Pods-闪屏"
                ReferencedContainer = "container:Pods.xcodeproj">

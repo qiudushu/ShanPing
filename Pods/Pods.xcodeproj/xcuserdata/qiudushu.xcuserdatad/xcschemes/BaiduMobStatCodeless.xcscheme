@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE9929DA800EEB797C67DA00F12C2C53"
+               BlueprintIdentifier = "885CD2FB078C133D33DA2DA3F8854159"
                BuildableName = "BaiduMobStatCodeless"
                BlueprintName = "BaiduMobStatCodeless"
                ReferencedContainer = "container:Pods.xcodeproj">

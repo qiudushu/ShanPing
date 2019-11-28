@@ -60,7 +60,7 @@ typedef enum _BaiduMobStatFeedTrackStrategy {
 
 /**
  百度移动应用统计接口
- 当前版本 5.0.0_18
+ 当前版本 5.1.1_18
  */
 @interface BaiduMobStat : NSObject
 /**
@@ -200,6 +200,16 @@ typedef enum _BaiduMobStatFeedTrackStrategy {
 + (BaiduMobStat *)defaultStat;
 
 /**
+ 设置用户自定义的用户属性信息，在startWithAppId之前调用
+ 设置一次UserPorperty后，属性与该设备绑定。传入新的UserPorperty将替换老的UserPorperty内容。
+ 传入nil，可清空标记。
+ key值为用户提前在网站创建的“属性名称”，若没有提前创建，则无统计效果。最多传入100个key值，超出部分无效
+ 每个value长度限制256字节
+ 调用例子见demo工程
+ */
+- (void)setUserProperty:(NSDictionary *)userProperty;
+
+/**
  设置应用的appkey，启动统计SDK。
  注意！！！以下行为Api调用前，必须先调用该接口。
  
@@ -299,16 +309,6 @@ typedef enum _BaiduMobStatFeedTrackStrategy {
 - (void)pageviewEndWithName:(NSString *)name;
 
 /**
- 记录UIWebView中的行为（需要在网页的JS代码中进行相应配置，详见文档与Demo程序）
- 在UIWebView的代理方法：
- - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
- 中，调用此接口，传入request参数，开始统计JS中的操作
- 
- @param request UIWebView的请求参数
- */
-- (void)webviewStartLoadWithRequest:(NSURLRequest *)request;
-
-/**
  记录WkWebView中的行为（需要在网页的JS代码中进行相应配置，详见文档与Demo程序）
  在WkWebview的代理方法:
  -(void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message
@@ -401,12 +401,6 @@ UIViewInternalDefine
 @end
 
 /**
- 百度移动统计UIWebView Category
- */
-@interface UIWebView (BaiduMobStatWebView)
-@end
-
-/**
  百度移动统计NSInvocation Category
  */
 @interface NSInvocation (BaiduMobStat)
@@ -475,7 +469,6 @@ UITableViewInternalDefine
 void import_BaiduMobStatViewController ();
 void import_BaiduMobStatWindow ();
 void import_BaiduMobStatView ();
-void import_BaiduMobStatWebView ();
 void import_BaiduMobStatWKWebView ();
 void import_BaiduMobStatNSInvocation ();
 void import_BaiduMobStatScrollView ();

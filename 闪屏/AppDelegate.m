@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "SwitchViewController.h"
 
-#import <AVOSCloud/AVOSCloud.h>
+//#import <AVOSCloud/AVOSCloud.h>
 
 @interface AppDelegate ()
 
@@ -24,8 +24,8 @@
     /*
      * 初始化learnCloud
      */
-    [AVOSCloud setApplicationId:@"yNwgv5TxBAu4pfsyGKSaghfU-gzGzoHsz"
-                      clientKey:@"AGrweIjMzJs6MO3MJzoj1t89"];
+//    [AVOSCloud setApplicationId:@"yNwgv5TxBAu4pfsyGKSaghfU-gzGzoHsz"
+//                      clientKey:@"AGrweIjMzJs6MO3MJzoj1t89"];
 
     
 

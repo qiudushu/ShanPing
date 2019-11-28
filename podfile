@@ -17,11 +17,9 @@ pod 'MJRefresh'
 pod 'QBImagePickerController'
 pod 'YYCache'
 pod 'HJDanmaku'
-pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
-pod 'AVOSCloudIM'             # 即时通讯模块
 pod 'SDWebImage'
 pod 'BaiduMapKit' #百度地图SDK
-pod 'MBProgressHUD','~> 3.1.0'
+
 
 
 end

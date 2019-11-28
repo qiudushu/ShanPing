@@ -9,7 +9,7 @@
 #import "ForthViewController.h"
 #import "HADirect.h"
 
-#import <AVOSCloud/AVOSCloud.h>
+//#import <AVOSCloud/AVOSCloud.h>
 
 @interface ForthViewController ()<UIScrollViewDelegate>
 {
@@ -34,13 +34,13 @@
  */
 - (void)saveDataToCloud{
     
-    //https://itunes.apple.com/us/app/zhi-hui-shu./id1255358463?ls=1&mt=8
-    NSString *moveUrl = @"https://itunes.apple.com/us/app/zhi-hui-shu./id1255358463?ls=1&mt=8";
-    AVObject *saveObject = [AVObject objectWithClassName:@"MoveInfo"];
-    [saveObject setObject:@"1" forKey:@"type"];
-    [saveObject setObject:moveUrl forKey:@"moveUrl"];
-    [saveObject setObject:@"预留字段" forKey:@"left"];
-    [saveObject save];
+//    //https://itunes.apple.com/us/app/zhi-hui-shu./id1255358463?ls=1&mt=8
+//    NSString *moveUrl = @"https://itunes.apple.com/us/app/zhi-hui-shu./id1255358463?ls=1&mt=8";
+//    AVObject *saveObject = [AVObject objectWithClassName:@"MoveInfo"];
+//    [saveObject setObject:@"1" forKey:@"type"];
+//    [saveObject setObject:moveUrl forKey:@"moveUrl"];
+//    [saveObject setObject:@"预留字段" forKey:@"left"];
+//    [saveObject save];
 
 }
 
@@ -48,14 +48,14 @@
  * 读取数据
  */
 - (void)getSaveData{
-    AVQuery *query = [AVQuery queryWithClassName:@"MoveInfo"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        AVObject *firstObject = objects.firstObject;
-        NSLog(@"====%@===%@==%@===%@",objects,firstObject.className,firstObject,firstObject[@"localData"]);
-        NSLog(@"1111111====>>>>>%@",firstObject[@"localData"][@"moveUrl"]);
-        NSString *scoreUrl = firstObject[@"localData"][@"moveUrl"];
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:scoreUrl]];
-    }];
+//    AVQuery *query = [AVQuery queryWithClassName:@"MoveInfo"];
+//    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+//        AVObject *firstObject = objects.firstObject;
+//        NSLog(@"====%@===%@==%@===%@",objects,firstObject.className,firstObject,firstObject[@"localData"]);
+//        NSLog(@"1111111====>>>>>%@",firstObject[@"localData"][@"moveUrl"]);
+//        NSString *scoreUrl = firstObject[@"localData"][@"moveUrl"];
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:scoreUrl]];
+//    }];
 
 }
 
