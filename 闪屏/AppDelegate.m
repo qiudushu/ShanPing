@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "SwitchViewController.h"
 
+#import <AVOSCloud/AVOSCloud.h>
+
 @interface AppDelegate ()
 
 @end
@@ -19,8 +21,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    /*
+     * 初始化learnCloud
+     */
+    [AVOSCloud setApplicationId:@"yNwgv5TxBAu4pfsyGKSaghfU-gzGzoHsz"
+                      clientKey:@"AGrweIjMzJs6MO3MJzoj1t89"];
+
     
+
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[SwitchViewController alloc] init];
     [self.window makeKeyAndVisible];
     return YES;

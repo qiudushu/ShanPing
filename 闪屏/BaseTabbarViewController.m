@@ -58,24 +58,24 @@
  */
 - (void)setUpAllChildViewController{
     // 1.添加第一个控制器
-    FirstViewController *oneVC = [[FirstViewController alloc]init];
-    [self setUpOneChildViewController:oneVC image:@"btn_tabbar_home" selectedImage:@"btn_tabbar_home_on" title:@"首页"];
-    
-    // 2.添加第2个控制器
-    SecondViewController *twoVC = [[SecondViewController alloc]init];
-    [self setUpOneChildViewController:twoVC image:@"btn_tabbar_shoppingbuy" selectedImage:@"btn_tabbar_shoppingbuy_on" title:@"技术"];
-    
-    ////////
-    aniVc  = [[AnimalViewController alloc]init];
-    [self setUpOneChildViewController:aniVc image:@"btn_Tabbar_Community" selectedImage:@"btn_Tabbar_Community_on" title:@"美美"];
-    
+//    FirstViewController *oneVC = [[FirstViewController alloc]init];
+//    [self setUpOneChildViewController:oneVC image:@"btn_tabbar_home" selectedImage:@"btn_tabbar_home_on" title:@"首页"];
+//
+//    // 2.添加第2个控制器
+//    SecondViewController *twoVC = [[SecondViewController alloc]init];
+//    [self setUpOneChildViewController:twoVC image:@"btn_tabbar_shoppingbuy" selectedImage:@"btn_tabbar_shoppingbuy_on" title:@"技术"];
+//
+//    ////////
+//    aniVc  = [[AnimalViewController alloc]init];
+//    [self setUpOneChildViewController:aniVc image:@"btn_Tabbar_Community" selectedImage:@"btn_Tabbar_Community_on" title:@"美美"];
+//
     // 3.添加第3个控制器
     ThreeViewController *threeVC = [[ThreeViewController alloc]init];
     [self setUpOneChildViewController:threeVC image:@"btn_tabbar_shoppingcart"selectedImage:@"btn_tabbar_shoppingcart_on" title:@"博文"];
     
     // 4.添加第4个控制器
-    ForthViewController *fourVC = [[ForthViewController alloc]init];
-    [self setUpOneChildViewController:fourVC image:@"btn_tabbar_myPanli" selectedImage:@"btn_tabbar_myPanli_on" title:@"闺房"];
+//    ForthViewController *fourVC = [[ForthViewController alloc]init];
+//    [self setUpOneChildViewController:fourVC image:@"btn_tabbar_myPanli" selectedImage:@"btn_tabbar_myPanli_on" title:@"闺房"];
 }
 
 
